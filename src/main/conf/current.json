@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "tag" : "desc",
+      "name": "天气情况综述",
+      "pos":"html->body->div .con.today.clearfix->div .left.fl->div #today->input #hidden_title"
+    },
+    {
+      "tag" : "update_time",
+      "name": "更新时间",
+      "pos":"html->body->div .con.today.clearfix->div .left.fl->div #today->input #update_time"
+    },
+    {
+      "tag" : "humidity",
+      "name": "相对湿度",
+      "pos":"html->body->div .con.today.clearfix->div .left.fl->div #today->div .t->div .sk->div .zs.h->span+em"
+    },
+    {
+      "tag" : "wind",
+      "name": "风",
+      "pos":"html->body->div .con.today.clearfix->div .left.fl->div #today->div .t->div .sk->div .zs.w->span+em"
+    },
+    {
+      "tag" : "tem",
+      "name": "温度",
+      "pos":"html->body->div .con.today.clearfix->div .left.fl->div #today->div .t->div .sk->div .tem->span+em"
+    },
+    {
+      "tag" : "air",
+      "name": "空气",
+      "pos":"html->body->div .con.today.clearfix->div .left.fl->div #today->div .t->div .sk->div .zs.pol->span->a"
+    }
+  ]
+}
